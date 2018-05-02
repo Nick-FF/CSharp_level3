@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Name="btnTest" Content="Проверка" HorizontalAlignment="Left" Margin="848,576,0,0" VerticalAlignment="Top" Width="173" Click="Button_Click"/>
+        <PasswordBox Name="passwordBox" HorizontalAlignment="Left" Margin="848,540,0,0" VerticalAlignment="Top" Width="173" PasswordChanged="PasswordBox_PasswordChanged"/>
+        <ListView Name="OutputContacts" Height="354" Margin="160,82,160,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
